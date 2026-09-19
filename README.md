@@ -1,1 +1,1 @@
-# eKRÁTA Firka Ellenörzőhöz some l10n
+# eKRÁTA Firka Ellenörző localizations
