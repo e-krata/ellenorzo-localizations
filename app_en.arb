@@ -2,12 +2,10 @@
   "@_GLOBAL": {},
   "restart_title": "Restart application",
   "restart_body": "Click here to open the application.",
-
   "@_LOGIN": {},
   "loginBtn": "Sign in with E-Kréta account",
   "privacyLabel": "Privacy policy",
   "runningInDomainBrowser": "Domain browser",
-
   "title1": "Know everything at a glance",
   "subtitle1": "See useful information about your day at the top of the home page.",
   "title2": "All your subjects in one place",
@@ -16,16 +14,13 @@
   "subtitle3": "Choose what you want to see on your timetable and enable or disable tests, homework, breaks, and free periods.",
   "title4": "Lots of extras you will never find in Kréta",
   "subtitle4": "",
-
   "@_DATES": {},
   "yesterday": "Yesterday",
   "today": "Today",
   "tomorrow": "Tomorrow",
-
   "@_EXTRAS": {},
   "debug_screen": "Developer menu",
   "settings_screen": "Settings",
-
   "@_HOME": {},
   "home": "Home",
   "grades": "Grades",
@@ -35,7 +30,6 @@
   "refreshing": "Refreshing data...",
   "reauth": "Sign-in required",
   "api_error": "Kréta API error",
-
   "@_HOME_MAIN": {},
   "pairing": "Pair lesson",
   "pairing_description": "Would you like to pair this lesson with the Firka app?\nAfter pairing, you can see your timetable, latest grades, tests, and assignments.",
@@ -43,10 +37,8 @@
   "save": "Save",
   "okay": "OK",
   "pair": "Pair",
-
   "beta_title": "Firka - Public beta",
   "beta_body": "The application is still under development; some features may work incorrectly, not work at all, or not be implemented yet.",
-
   "@_WELCOME": {},
   "good_morning": "Good morning, {p}!",
   "@good_morning": {
@@ -124,12 +116,10 @@
   },
   "no_tests_tomorrow": "You have no tests tomorrow",
   "get_ready": "Get some rest and get ready",
-
   "@_HOMEWORK": {},
   "homework": "Homework",
   "mark_as_done": "Mark as completed",
   "mark_as_not_done": "Mark as incomplete",
-
   "@_STARTING_SOON": {},
   "starting_soon": "Your first lesson starts soon!",
   "starting_hour": "hour",
@@ -138,7 +128,6 @@
   "starting_min_plural": "minutes",
   "starting_sec": "second",
   "starting_sec_plural": "seconds",
-
   "@_HOME_GRADES": {},
   "subjects": "Subjects",
   "subject": "Subject",
@@ -165,7 +154,6 @@
   "grade_strValue": "Text evaluation: ",
   "no_grades": "You do not have any grades in this subject yet.",
   "unknown_teacher": "Unknown teacher",
-
   "surprise_grade_rank_5": "Very surprising",
   "surprise_grade_rank_4": "Surprising",
   "surprise_grade_rank_3": "Average",
@@ -176,8 +164,7 @@
   "grade_weight_x3": "3×",
   "grade_weight_x4": "4×",
   "grade_weight_x5": "5×",
-  "grade_weight_percent": "Percent",
-
+  "grade_weight_percent": "{weight}%",
   "@_HOME_TIMETABLE": {},
   "tt_no_classes_l1": "You have no lessons on this day!",
   "tt_no_classes_l2": "Yippee!",
@@ -188,7 +175,6 @@
   "view_subject_btn": "View subject",
   "view_lesson_btn": "View lesson",
   "date": "Date",
-
   "@_HOME_TIMETABLE_TOAST": {},
   "tt_settings_toast": "Timetable settings",
   "tt_settings_toast_lesson_nos": "Lesson numbers",
@@ -196,14 +182,15 @@
   "tt_settings_toast_lesson_breaks": "Breaks",
   "tt_settings_toast_lesson_substitution": "Substitutions",
   "tt_settings_toast_lesson_ab_timetable": "Two-week timetable",
-
   "a_week": "A week",
   "b_week": "B week",
-
   "@_OMISSIONS": {},
-  "omissions_count": "{count} absence(s)",
+  "omissions_count": "{state} – {count} absence(s)",
   "@omissions_count": {
     "placeholders": {
+      "state": {
+        "type": "String"
+      },
       "count": {
         "type": "int"
       }
@@ -212,12 +199,10 @@
   "omission_state_excused": "Excused",
   "omission_state_pending": "Pending confirmation",
   "omission_state_unexcused": "Unexcused",
-
   "@_STATS_FOR_NERDS": {},
   "stats_date": "Date",
   "stats_created_at": "Created",
   "stats_last_mod": "Last modified",
-
   "@_SETTINGS": {},
   "s_developer": "Developer settings",
   "s_stats_for_nerds": "Show extra information",
@@ -269,7 +254,6 @@
   "s_ag_language_de": "German",
   "s_wear": "Wear OS",
   "s_wear_os_support": "Wear OS support",
-
   "s_c": "Customization",
   "s_c_desc": "Customize the appearance of the application",
   "s_c_icon_header": "App icons",
@@ -290,7 +274,6 @@
   "s_c_theme_auto": "Automatic",
   "s_c_theme_light": "Light",
   "s_c_theme_dark": "Dark",
-
   "s_c_themes_builtin_label": "Built-in themes",
   "s_c_themes_own_label": "My themes",
   "s_c_themes_imported_label": "Imported themes",
@@ -310,9 +293,7 @@
   "s_c_themes_delete_title": "Delete theme",
   "s_c_themes_delete_subtitle": "Are you sure you want to delete this theme?",
   "s_c_themes_delete_confirm": "Delete",
-
   "s_ci_child_protection": "Child protection",
-
   "ic_ace": "Asexual",
   "ic_ace_f": "Asexual",
   "ic_bi": "Bisexual",
@@ -359,7 +340,6 @@
   "ic_xmas1": "Naughty list",
   "ic_xmas2": "Gift",
   "ic_xmas3": "reChristmas",
-
   "s_extras": "Extras",
   "s_surprise_grades": "Surprise grades",
   "s_seasonal_icons": "Seasonal icons",
@@ -377,7 +357,6 @@
   "s_beta_warning": "Beta warning",
   "s_about": "About",
   "s_feedback": "Feedback",
-
   "s_fcm_status_permission_granted": "Granted",
   "s_fcm_status_permission_denied": "Denied",
   "s_fcm_status_permission_unknown": "Unknown",
@@ -392,18 +371,15 @@
   "s_fcm_status_refresh_button": "Refresh",
   "s_fcm_test_notifications_title": "Test notifications",
   "s_fcm_test_notifications_multi_title": "Test notification for multiple categories",
-
   "@_SETTINGS_ACCOUNT": {},
   "s_your_account": "Your account",
   "s_acc_kreta": "eKRÉTA accounts",
   "s_acc_add": "Add account",
   "s_acc_logout": "Sign out",
-
   "@_SETTINGS_SCREEN": {},
   "close": "Close",
   "licensesLabel": "Licenses",
   "licenseDescription": "Licenses of the third-party libraries used by the application",
-
   "@_WEAR": {},
   "@_WEAR_LOGIN": {},
   "wear_phone_unpaired": "Your watch is not paired with your phone!",
@@ -411,7 +387,6 @@
   "wear_pairing_request_sent": "Pairing in progress, open the app on your phone",
   "wear_pairing_check_phone": "Continue pairing on your phone",
   "wear_try_again": "Try again",
-
   "breakTxt": "Break",
   "empty_class": "Free period",
   "timeLeft": "{mins} minutes left",
@@ -442,7 +417,6 @@
       }
     }
   },
-
   "@_LIVEACTIVITY_PRIVACY": {},
   "la_privacy_header": "Live Activity privacy policy",
   "la_privacy_intro": "To use the Live Activity feature, we need to store and process certain data. Please read the information below carefully.",
@@ -461,7 +435,6 @@
   "la_privacy_summary1": "Device tokens, Live Activity tokens, timetable data",
   "la_privacy_summary2": "Encrypted storage, secure servers",
   "la_privacy_summary3": "Data is automatically deleted when it is no longer needed",
-
   "@_LIVEACTIVITY_CONSENT": {},
   "la_title": "Live Activity",
   "la_subtitle": "Live display of your timetable on your device's lock screen",
@@ -469,5 +442,49 @@
   "la_privacy_required": "You must accept the privacy policy to use Live Activity",
   "la_learn_more": "Learn more",
   "la_accept": "Accept",
-  "la_decline": "Decline"
+  "la_decline": "Decline",
+  "wearSyncNotificationTitle": "Watch synchronization",
+  "wearSyncNotificationText": "Keeping watch data synchronized",
+  "copied": "Copied",
+  "s_c_customize": "Customize",
+  "s_c_change": "Change",
+  "s_c_title_weight_thin": "Thin",
+  "s_c_title_weight_thick": "Thick",
+  "s_c_title_weight_header": "Title weight",
+  "s_c_title_weight_subtitle": "Subtitle weight",
+  "s_c_capitalization_lower": "Lowercase",
+  "s_c_capitalization_normal": "Normal",
+  "s_c_capitalization_upper": "Uppercase",
+  "s_c_capitalization_header": "Capitalization",
+  "s_c_tab_appearance": "Appearance",
+  "s_c_tab_subjects": "Subjects",
+  "s_c_tab_fonts": "Fonts",
+  "s_c_manage_subjects": "Manage subjects",
+  "s_c_change_app_icon": "Change app icon",
+  "s_c_colors_header": "Colors",
+  "s_c_grade_colors_header": "Grade colors",
+  "s_c_title_style_header": "Title style",
+  "now": "Now",
+  "new_grades_card": "New grades",
+  "tt_non_instructional_day": "Non-instructional day",
+  "tt_public_holiday": "Public holiday",
+  "tt_spring_break": "Spring break",
+  "tt_winter_break": "Winter break",
+  "tt_autumn_break": "Autumn break",
+  "tt_instructional_day": "Instructional day",
+  "tt_first_semester_end": "End of first semester",
+  "tt_holiday": "Holiday",
+  "tt_rest_day": "Rest day",
+  "tt_first_instructional_day": "First instructional day",
+  "tt_last_instructional_day": "Last instructional day",
+  "tt_last_instructional_day_graduates": "Last instructional day for graduates",
+  "tt_full_day_trip": "Full-day trip",
+  "tt_quarter_end": "End of quarter",
+  "@grade_weight_percent": {
+    "placeholders": {
+      "weight": {
+        "type": "num"
+      }
+    }
+  }
 }
