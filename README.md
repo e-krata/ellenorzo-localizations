@@ -1,1 +1,1 @@
-# eKRÁTA Firka Ellenörző localizations
+# eKRÁTA Firka Ellenőrző localizations
